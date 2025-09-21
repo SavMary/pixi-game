@@ -36,10 +36,17 @@ The game will be available at http://localhost:8080/pixi-game (or whatever Vite 
 ### 📂 The structure of the project
 
 pixi-game/
-├── public/         # static assets (pictures, sprites)
-├── src/            # source code
-│   └── main.js     # basic game logic
+<br/>
+├── public/          - static assets (pictures, sprites)
+<br/>
+├── src/             - source code
+<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;└── main.js      - basic game logic
+<br/>
 ├── index.html
+<br/>
 ├── vite.config.js
+<br/>
 └── package.json
+
 
