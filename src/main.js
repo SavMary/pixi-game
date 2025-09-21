@@ -18,14 +18,14 @@ import {Application, Assets, Sprite, Graphics, Text, Container} from "pixi.js";
 
 
     // ================== BACKGROUND ==================
-    const bgTexture = await Assets.load("/assets/space.webp");
+    const bgTexture = await Assets.load("assets/space.webp");
     const bg = new Sprite(bgTexture);
     bg.width = app.screen.width;
     bg.height = app.screen.height;
     app.stage.addChild(bg);
 
     // ================== SHOOTER ==================
-    const shooterTexture = await Assets.load("/assets/shooter.webp");
+    const shooterTexture = await Assets.load("assets/shooter.webp");
     const shooter = new Sprite(shooterTexture);
     shooter.width = 200;
     shooter.height = 130;
@@ -54,9 +54,9 @@ import {Application, Assets, Sprite, Graphics, Text, Container} from "pixi.js";
 
     // ================== ASTEROIDS ==================
     const asteroidsTextures = await Assets.load([
-        {alias: "a1", src: "/assets/asteroid3.webp"},
-        {alias: "a2", src: "/assets/asteroid6.png"},
-        {alias: "a3", src: "/assets/asteroid7.webp"},
+        {alias: "a1", src: "assets/asteroid3.webp"},
+        {alias: "a2", src: "assets/asteroid6.png"},
+        {alias: "a3", src: "assets/asteroid7.webp"},
     ]);
     const textures = [
         asteroidsTextures["a1"],
