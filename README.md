@@ -32,12 +32,14 @@ The project is created for practicing working with WebGL and game logic in the b
 The game will be available at http://localhost:8080/pixi-game (or whatever Vite shows).
 4. Build:
    `npm run build`
-
+   
 ### 📂 The structure of the project
+
 pixi-game/
-├── public/         # statics (pictures, sprites)
+├── public/         # static assets (pictures, sprites)
 ├── src/            # source code
 │   └── main.js     # basic game logic
 ├── index.html
 ├── vite.config.js
 └── package.json
+
