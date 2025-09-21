@@ -1,4 +1,3 @@
-[GAME LINK](https://savmary.github.io/pixi-game/)
 ### 🚀 Pixi Space Shooter
 An arcade shooter game on [Pixi.js](https://pixijs.com/), where the player controls a spaceship, destroys asteroids and bosses.
 The project is created for practicing working with WebGL and game logic in the browser.
